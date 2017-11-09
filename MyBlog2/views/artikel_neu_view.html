@@ -1,0 +1,11 @@
+<h3>Neuen Artikel erstellen</h3>
+
+<form action="index.php?artikel_neu" method="post">
+    <input type="text" name="artikel_neu_name" class="blog_neu_input" placeholder="Artikelname">
+    <input type="text" name="artikel_neu_beschreibung" class="blog_neu_input" placeholder="Teaser">
+    <input type="text" name="artikel_neu_text" class="blog_neu_input" placeholder="Text">
+    <input type="hidden" name="blog_id" value="[@blog_id]">
+    <input type="hidden" name="controller" value="artikel">
+    <input type="hidden" name="action" value="artikel_neu">
+    <input type="submit" value="Artikel erstellen">
+</form>
